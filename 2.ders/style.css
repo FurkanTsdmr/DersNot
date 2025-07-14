@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header{
+    background: #2c3e59;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    background: #34495e;
+    padding: 10px;
+}
+
+nav>a{
+    color: white;
+    text-decoration: none;
+}
+.card{
+    border: 10px double  #ddd;
+    padding: 20px;    
+    margin: 10px 0;
+    border-radius: 50px;
+}
