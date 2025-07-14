@@ -1,0 +1,60 @@
+form{
+    width: 60%;
+    margin: 50px auto;
+    margin:50px;
+    padding: 40px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9;
+    position: relative;
+}
+
+input,select,p{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+input[type="password"],input[type="text"],
+input[type="number"],input[type="email"],
+input[type="datetime-local"],input[type="color"]{
+    width: 100%;
+}
+
+input[type="range"]{
+    width: 100%;
+}
+p{
+    font-size: 15px;
+}
+select{
+    width: 100%;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    left: 400px;
+    position: relative;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    position: relative;
+    left: 80%;
+    top: 30px;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: lime;
+}
