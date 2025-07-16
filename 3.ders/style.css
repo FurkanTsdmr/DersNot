@@ -58,3 +58,37 @@ select{
     height: 100px;
     background-color: lime;
 }
+
+fixed {
+    position: fixed;          
+    width: 300px;             
+    border: 3px solid orange;  
+    right: 0;                
+    bottom: 0;                
+    background-color: green;
+}
+
+.sticky {
+    position: -webkit-sticky; 
+    position: sticky; 
+    top: 0; 
+    padding: 5px; 
+    background-color: bisque;
+    border: 2px solid red; 
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 100px 200px;
+  grid-gap: 10px;
+  padding: 20px;
+}
+
+.grid-item {
+  background-color: lightseagreen;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
